@@ -341,7 +341,7 @@ class WriteMemory(keras.layers.Layer):
         return (k_new,v_new,p)
 
 
-
+    # slot in memory
     def replase_slot(self,k_new,v_new,p,n):
         memory_stronger=self.memory.get_eviction_scores(self.a,self.b,self.g)
         # ind=tf.argmax(memory_stronger)
