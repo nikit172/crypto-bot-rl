@@ -235,7 +235,7 @@ class ReadMemory(keras.layers.Layer):
         
 
         
-        
+
 #class write
 @keras.saving.register_keras_serializable('Memory')
 class WriteMemory(keras.layers.Layer):
@@ -267,7 +267,7 @@ class WriteMemory(keras.layers.Layer):
         self.a=a
         self.b=b
         self.g=g
-
+    #build model
     def build(self, input_shape):
         self.D_k=self.memory.D
         self.D_v=self.memory.D_v
