@@ -236,7 +236,7 @@ class ReadMemory(keras.layers.Layer):
 
         
         
-
+#class write
 @keras.saving.register_keras_serializable('Memory')
 class WriteMemory(keras.layers.Layer):
     def __init__(self,memory: Memory,tf_name='15m',o_f=0.6,n_f=0.02,a_f=1,s_max=0.65,a=1,b=1,g=1,**kwargs):
