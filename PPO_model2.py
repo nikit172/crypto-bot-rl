@@ -518,6 +518,7 @@ class Transformer_block(layers.Layer):
 class Output_cout(layers.Layer):
     def __init__(self,num):
         self.mean=layers.Dense(num)
+        self.num=num
         self.std=self.add_weight(shape=(num,),
                                  name='means',
                                  initializer=keras.initializers.Constant(-0.5),
