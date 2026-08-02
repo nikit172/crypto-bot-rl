@@ -50,7 +50,6 @@ class Trading_3():
         self.trade_count=0
         self.step_per_episode=96*7
         self.step_in_episode=0
-        
         self.action_space={'scalars':3,'level':3} # 3 действия 3 уровня 
         self.observation_space ={
             'window_data': [(150,9),(100,9),(20,9)],

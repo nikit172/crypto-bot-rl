@@ -1,6 +1,8 @@
 #python
 __pycache__/
 tf_profile_env2/
+.venv/
+sell/
 
 #data
 *.parquet
