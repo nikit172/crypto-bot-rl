@@ -516,7 +516,8 @@ class Transformer_block(layers.Layer):
 # выходной слой для непрерывной политики
 @keras.saving.register_keras_serializable('output_cout')
 class Output_cout(layers.Layer):
-    def __init__(self,num):
+    def __init__(self,num,*argv):
+        super().__init__(*argv)
         self.mean=layers.Dense(num)
         self.num=num
         self.std=self.add_weight(shape=(num,),
