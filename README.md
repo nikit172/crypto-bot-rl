@@ -1,9 +1,9 @@
 🤖 CryptoBot-RL: Торговый агент с PPO, Transformer и внешней памятью
-https://img.shields.io/badge/python-3.12-blue.svg
-https://img.shields.io/badge/TensorFlow-2.18.1-orange.svg
-https://img.shields.io/badge/Keras-3.10.0-red.svg
-https://img.shields.io/badge/Gymnasium-0.28.1-green.svg
-https://img.shields.io/badge/status-%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-yellow.svg
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
+![TensorFlow-2.18.1](https://img.shields.io/badge/TensorFlow-2.18.1-orange.svg)
+![Keras-3.10.0](https://img.shields.io/badge/Keras-3.10.0-red.svg)
+![Gymnasium-0.28.1](https://img.shields.io/badge/Gymnasium-0.28.1-green.svg)
+![](https://img.shields.io/badge/status-%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-yellow.svg)
 
 Внимание: проект находится в стадии активного экспериментирования. Полноценного обучения пока не достигнуто, но все компоненты (парсер, торговая среда, архитектура агента) работают и готовы к использованию.
 
